@@ -29,8 +29,6 @@ const playAudio = () => {
 button.addEventListener("click", async () => {
   const docRef = db.collection("slides").doc("rTXSnTWUy5Ai6hNYZquE");
 
-  console.log(docRef);
-
   docRef
     .set({
       slides: Date(),
